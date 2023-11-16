@@ -1,3 +1,5 @@
+// Solution for the problem 1295.
+
 class Solution {
     public int findNumbers(int[] nums) {
         int count;
