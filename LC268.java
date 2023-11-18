@@ -1,3 +1,5 @@
+//Solution for problem 268
+
 class Solution {
     public int missingNumber(int[] arr) {
         int i = 0;
@@ -11,16 +13,14 @@ class Solution {
             }
 
         }
-        for (int j =0 ; j < arr.length;j++){
+        for (int j = 0; j < arr.length; j++) {
             if (j != arr[j])
-            return j;
+                return j;
 
         }
         return arr.length;
 
-    
     }
-    
 
     static void swap(int[] arr, int n1, int n2) {
         int temp = arr[n1];
