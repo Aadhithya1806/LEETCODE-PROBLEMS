@@ -1,5 +1,7 @@
 // Solution for Problem 442.
 
+import java.util.List;
+
 class Solution {
     public List<Integer> findDuplicates(int[] nums) {
         int i = 0;
